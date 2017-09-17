@@ -10,7 +10,7 @@
 
 int allocateMemory2( char** arr){
 	printf("==================== INSIDE OF FUNCTION! ====================\n\n");
-	printf("Inside of allocateMemory( char** arr) arr has a value of the  address %p.\n", (void *)arr);
+	printf("Inside of allocateMemory2( char** arr) arr has a value of the  address %p.\n", (void *)arr);
 	printf("This pointer points to *arr which holds the memory address (%p).\n", (void *)*arr);
 	*arr = malloc(50 * sizeof(char));
 	printf("AFTER MALLOC!\n");
@@ -22,7 +22,7 @@ int allocateMemory2( char** arr){
 
 int allocateMemory( char* arr){
 	printf("==================== INSIDE OF FUNCTION! ====================\n\n");
-	printf("Inside of allocateMemory2( char* arr) arr has a value of the  address %p.\n", (void *)arr);
+	printf("Inside of allocateMemory( char* arr) arr has a value of the  address %p.\n", (void *)arr);
 	arr = malloc(50 * sizeof(char));
 	printf("AFTER MALLOC!\n");
 	printf("This pointer now holds the memory address (%p).\n\n", (void *)arr);
