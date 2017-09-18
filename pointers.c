@@ -86,7 +86,7 @@ int main(int argc, char** argv){
 	printf("to the outer pointer.  If we look at the data the outer pointer\n");
 	printf("points to we see that it will have changed to point to our\n");
 	printf("new memory area.\n\n");
-	printf("char * buffer;\nallocateMemory(&buffer);	//We passed the address of the pointer.  This is a pointer to a pointer!\n");
+	printf("char * buffer;\nallocateMemory2(&buffer);	//We passed the address of the pointer.  This is a pointer to a pointer!\n");
 	printf("\nAddress of buffer = %p.\n", &buffer);
 	printf("Value of buffer = %p.\n", buffer);
 	getchar();
